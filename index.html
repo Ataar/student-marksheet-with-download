@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- it is a CDN means Content Delivery Netwrok -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4/bootstrap-4.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+
+
+    <body>
+
+    <div class="container" id="pdf-content">
+    <div class="board-header">
+    <div class="logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ97MfWpiYwrW4p1PWvB4EBT5F635eE0RICzw&s" alt="">
+    </div> 
+    <div class="board-title">
+    <h1>Maharashtra State Board</h1>
+    <h2>Seccondary & Higher Secondry Education,Pune</h2>
+    <h3>HIGHER SECONDARY CERTIFICATE EXAMINATION</h3>
+    <h4>MARKS</h4>
+    </div>
+    </div>
+
+    <div class="btn-wrapper">
+    <button onclick="genrateMarksheet()" id="generateBtn">
+    Genrate Marksheet
+    </button>
+
+    </div>
+
+
+    <div id="marksheet">
+
+    </div>
+
+    <div id="marks">
+
+    </div>
+
+    <div class="footer">
+    <p>Genrated BY Board Examination System</p>
+    </div>
+    
+</div> 
+
+
+  <button id="downloadBtn" onclick="downloadMarksheet()">
+    <i class="fa fa-download"></i> Download Marksheet
+</button>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="./assets/js/app.js"></script> -->
+    <script src="./assets/js/app3.js"></script>
+    <!-- <script src="./assets/js/app4.js"></script> -->
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
